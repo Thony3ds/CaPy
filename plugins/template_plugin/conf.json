@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "permissions": "GlobalStyleSheet|GlobalLangFile|StartVideo"
+  "files": {
+    "GlobalStyleSheet": "pink_theme.css",
+    "GlobalLangFile": "it-IT.json",
+    "StartVideo": "meowStartVideo.mp4"
+  },
+  "executable": "template_plugin.py" 
+}
