@@ -31,7 +31,11 @@ Permissions can be:
 #### **Optionnal args**
 Optionnals args need to be here but can be none in the file:
  - executable: specify a python file that the app can run. The file must be in res dir.
- - file: specify a file that the app can use via permissions into your res dir
+ - files: specify a file that the app can use via permissions into your res dir. If you are using multiples permissions at the same time use this syntax:
+files: {
+  "permission_name": "file",
+  "permission_name": "file" // ...
+}
 
 ## Template:
 To help you we provide a template folder with all functionnalities in it and the correct syntax in template_plugin folder.
