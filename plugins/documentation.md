@@ -6,7 +6,8 @@ For security of the message system plugins will never give you acces to the netw
 youre app with better creativity
 
 ## Manifest
-The manifest register verified plugins that apear into the plugin page of CaPy.
+The manifest register verified plugins that apear into the plugin page of CaPy they use official version.
+If you want to make your own plugin you need to enable custom plugins into the CaPy settings. By doing this you will change your app into V X.X.X-dev that allow you to use official plugins for you X.X.X version or your own plugins with X.X.X-dev version
 
 ## Plugin componnents:
 Plugins must follow this exemple of tree:
