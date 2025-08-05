@@ -20,7 +20,7 @@ plugin_dir/
 ### conf.json
 conf.json file is the first file that CaPy will read when you install this plugin. It must follow this syntax:
 
-**Needed in the file:**\
+#### **Needed in the file:**\
 *version*: a version that match with your app version\
 *permissions*: a permission that will define the type of action of your plugin. You can add multiples permissions using |\
 Permissions can be:
@@ -28,7 +28,7 @@ Permissions can be:
  -  GlobalLangFile: allow you to add a new language in the app. For this you **must** provide a .json file that match with the template in your res dir.
  -  StartVideo: allow you to add a new video file when you start your app. For this you **must** provide a video format file in your res dir.
  -  Others permissions will be added in the future.\
-**Optionnal args**\
+#### **Optionnal args**\
 Optionnals args need to be here but can be none in the file:
  - executable: specify a python file that the app can run. The file must be in res dir.
  - file: specify a file that the app can use via permissions into your res dir
