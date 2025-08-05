@@ -1,17 +1,14 @@
 {
 	"custom_theme": {
 		"version": "1.0.0",
-		"type": "GlobalStyleSheet",
-		"executable": "CustomThemeEditor.exe" 
+		"type": "GlobalStyleSheet"
 	},
 	"custom_language": {
 		"version": "1.0.0",
-		"type": "GlobalLangFile",
-		"executable": "CustomLanguageEditor.exe"
+		"type": "GlobalLangFile"
 	},
 	"custom_start_video": {
 		"version": "1.0.0",
-		"type": "StartVideo",
-		"executable": "StartVideoPicker.exe"
+		"type": "StartVideo"
 	}
 }
