@@ -30,7 +30,7 @@ Permissions can be:
  -  Others permissions will be added in the future.
 #### **Optionnal args**
 Optionnals args need to be here but can be none in the file:
- - executable: specify a python file that the app can run. The file must be in res dir.
+ - executable: specify a python file that the app can run. The file must be in res dir. CaPy don't use cmd so you need to create your own UI using PyQt or Tkinter.
  - files: specify a file that the app can use via permissions into your res dir. If you are using multiples permissions at the same time use this syntax:
 files: {
   "permission_name": "file",
