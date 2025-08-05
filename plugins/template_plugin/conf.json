@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0-dev"
-  "permissions": "GlobalStyleSheet|GlobalLangFile|StartVideo"
+  "version": "1.0.0-dev",
+  "permissions": "GlobalStyleSheet|GlobalLangFile|StartVideo",
   "files": {
     "GlobalStyleSheet": "pink_theme.css",
     "GlobalLangFile": "it-IT.json",
