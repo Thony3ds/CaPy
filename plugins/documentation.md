@@ -28,6 +28,7 @@ Permissions can be:
  -  GlobalStyleSheet: allow you to change the CSS of the main app. For this you **must** provide a .css file in your res dir.
  -  GlobalLangFile: allow you to add a new language in the app. For this you **must** provide a .json file that match with the template in your res dir.
  -  StartVideo: allow you to add a new video file when you start your app. For this you **must** provide a video format file in your res dir.
+ -  GlobalFontFile: allow you to change the font for a majority of the app. For this you **must** provide a ttf format in your res dir.
  -  Others permissions will be added in the future.
 #### **Optionnal args**
 Optionnals args need to be here but can be none in the file:
