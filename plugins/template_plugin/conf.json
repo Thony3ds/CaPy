@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.0-dev", // dev means that this will not be use in CaPy app that not enable custom plugins mod
   "permissions": "GlobalStyleSheet|GlobalLangFile|StartVideo"
   "files": {
     "GlobalStyleSheet": "pink_theme.css",
