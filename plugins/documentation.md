@@ -34,4 +34,4 @@ Optionnals args need to be here but can be none in the file:
  - file: specify a file that the app can use via permissions into your res dir
 
 ## Template:
-To help you we provide a template folder with all functionnalities in it and the correct syntax [here](./template_plugins/).
+To help you we provide a template folder with all functionnalities in it and the correct syntax in template_plugin folder.
