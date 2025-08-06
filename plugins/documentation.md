@@ -40,3 +40,25 @@ files: {
 
 ## Template:
 To help you we provide a template folder with all functionnalities in it and the correct syntax in template_plugin folder.
+
+## CaPy Compilator:
+For your plugin to work you must compile it with the official CaPy Compiler with the right version (in the CaPyCompilator Folder).
+The app will automaticly compile your plugin to a .cpm (CaPy Plugin Module).
+### Compilator Restriction & allows:
+The compilator will only allow following libraries to be use:
+- PyQt5 
+- json
+- Others will be added in the future
+
+The compilator will allow you to access to different datas of the main app:
+- App Theme
+- Others will be added in the future
+
+## CaPy Execution File Syntax:
+Executions Files are optionnal but help to make configuration apps or other improvements.
+If you use executable into your conf.json you will have to configure the applications of the plugin. If you don't the app will automaticly turn them on.
+the executed file must be a class with the following imports in the __init__.py:
+def __init__(self, rights:dict, files_path:dict)
+
+rights will contains your permissions 
+files_paht will contains your files that your registered into your conf.json
