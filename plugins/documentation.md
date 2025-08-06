@@ -57,8 +57,8 @@ The compilator will allow you to access to different datas of the main app:
 ## CaPy Execution File Syntax:
 Executions Files are optionnal but help to make configuration apps or other improvements.
 If you use executable into your conf.json you will have to configure the applications of the plugin. If you don't the app will automaticly turn them on.
-the executed file must be a class with the following imports in the __init__.py:
-def __init__(self, rights:dict, files_path:dict)
+the executed file must be a class with the following imports in the __ init __.py:\
+def __ init __(self, rights:dict, files_path:dict)
 
 rights will contains your permissions 
 files_paht will contains your files that your registered into your conf.json
