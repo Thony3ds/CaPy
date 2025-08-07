@@ -1,14 +1,17 @@
 {
 	"custom_theme": {
 		"version": "1.0.0",
-		"type": "GlobalStyleSheet"
+		"type": "GlobalStyleSheet",
+		"raw_link": "https://github.com/Thony3ds/CaPy/"
 	},
 	"custom_language": {
 		"version": "1.0.0",
-		"type": "GlobalLangFile"
+		"type": "GlobalLangFile",
+		"raw_link": "https://github.com/Thony3ds/CaPy/"
 	},
 	"custom_start_video": {
 		"version": "1.0.0",
-		"type": "StartVideo"
+		"type": "StartVideo",
+		"raw_link": "https://github.com/Thony3ds/CaPy/"
 	}
 }
