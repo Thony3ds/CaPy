@@ -1,10 +1,12 @@
 {
-  "version": "1.0.0-dev",
-  "permissions": "GlobalStyleSheet|GlobalLangFile|StartVideo",
+  "name": "PluginTemplate",
+  "version": "1.0.0",
+  "permissions": "GlobalStyleSheet|GlobalLangFile|StartVideo|EmojiMenu|LoadFirst",
   "files": {
-    "GlobalStyleSheet": "pink_theme.css",
+    "GlobalStyleSheet": "red_theme.css",
     "GlobalLangFile": "it-IT.json",
-    "StartVideo": "meowStartVideo.mp4"
+    "StartVideo": "CaPy_proto_start_video.mp4",
+    "EmojiMenu": "gaming_emojis.json"
   },
-  "executable": "template_plugin.py" 
+  "executable": "plugin.py"
 }
